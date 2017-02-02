@@ -20,22 +20,18 @@ java -jar "metro_System.jar"
 To distribute this project, zip up the dist folder (including the lib folder)
 and distribute the ZIP file.
 
+=========================
+DATABASE INSETRTION STEPS
+=========================
 
-Notes:
+Install a XAMPP server if not already installed .
 
-* If two JAR files on the project classpath have the same name, only the first
-JAR file is copied to the lib folder.
+Now import the "metros.sql" file into your XAMPP server
 
-      * Only JAR files are copied to the lib folder.
-If the classpath contains other types of files or folders, these files (folders)
-are not copied.
-
-      * If a library on the projects classpath also has a Class-Path element
-specified in the manifest,the content of the Class-Path element has to be on
-the projects runtime path.
-
-      * To set a main class in a standard Java project, right-click the project node
-in the Projects window and choose Properties. 
-        Then click Run and enter the
-class name in the Main Class field. Alternatively, you can manually type the
-class name in the manifest Main-Class element.
+Steps for Importing file :
+1. Click on the IMPORT TAB on the Top bar of the Home Page of XAMPP server.
+2. After clicking , browse the file "metros.sql" from the location downloaded.
+	Choose Character set to UTF-8 and Format to be SQL.
+3. Click on "Go" in the bottom of the screen.
+4. Now database would be imported into your XAMPP server.
+  
